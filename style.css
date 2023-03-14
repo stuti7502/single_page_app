@@ -31,7 +31,7 @@
 }
 body{
     /* background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("hogwarts2.jfif"); */
-   
+    width: 100%;
     background-image: linear-gradient(to right,rgba(17,20,31,0.9), rgba(55,67,95,0.6), rgba(85,97,126,0.3));
     background-repeat: no-repeat;
 }
@@ -55,8 +55,8 @@ span{
     background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("images/hogwarts3.jpg");
     height: 90vh;
     background-repeat: no-repeat;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 152px;
+    margin-right: 152px;
 }
 .home p{
     float: right;
