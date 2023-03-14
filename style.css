@@ -55,8 +55,8 @@ span{
     background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("images/hogwarts3.jpg");
     height: 90vh;
     background-repeat: no-repeat;
-    margin-left: 152px;
-    margin-right: 152px;
+    margin-left: 155px;
+    margin-right: 155px;
 }
 .home p{
     float: right;
