@@ -55,7 +55,7 @@ span{
     color: white;
 }
 .home{
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("images/hogwarts3.jpg");
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)), url("images/hogwarts3.jpg");
     height: 90vh;
     background-repeat: no-repeat;
     margin-left: 155px;
@@ -71,6 +71,7 @@ span{
     border: 3px solid black;
     padding: 15px;
     font-family: cursive;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .slideshow-container {
 max-width: 1000px;
@@ -135,13 +136,14 @@ height: 250px;
 .cast{
     justify-content: center;
     display: flex;
+    overflow: scroll;
 }
 figcaption{
 color: white;
 font-size: 25px;
 }
 .image img{
-height: 600px;
+height: 600px;  
 }
 .footer a{
 text-decoration: none;
