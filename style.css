@@ -120,7 +120,7 @@ to {opacity: 1}
 }
 
 .card{
-float: left;
+/* float: left; */
 text-align: center;
 padding: 10px;
 border: 1px solid black;
@@ -133,10 +133,8 @@ margin: 50px;
 height: 250px;
 }
 .cast{
-    margin-left: 6%;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    /* margin-right: auto;    */
+    justify-content: center;
+    display: flex;
 }
 figcaption{
 color: white;
