@@ -23,17 +23,14 @@ function showSlides(n) {
 
 function home(){
     window.scrollTo(0,10);
-    // location.href = "#home";
+    // document.getElementById('home').scrollIntoView({ behavior: 'smooth'});
 }
 function about(){
-    // window.scrollTo(0,957);
-    location.href = "#about";
+    document.getElementById('about').scrollIntoView({ behavior: 'smooth'});
 }
 function image(){
-    // window.scrollTo(0,1960);
-    location.href = "#image";
+  document.getElementById('image').scrollIntoView({ behavior: 'smooth'});
 }
 function cast(){
-    // window.scrollTo(0,2300);
-    location.href = "#cast";
+  document.getElementById('cast').scrollIntoView({ behavior: 'smooth'});
 }

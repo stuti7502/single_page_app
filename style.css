@@ -1,11 +1,8 @@
-html{
-    scroll-behavior: smooth;
-}
+
 .part1{
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 2%;
-    /* padding-top: 5%; */
     border: 2px solid black;
 }
 .part1 img{
@@ -34,7 +31,7 @@ html{
 }
 body{
     /* background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("hogwarts2.jfif"); */
-    width: 100%;
+    /* width: 100%; */
     background-image: linear-gradient(to right,rgba(17,20,31,0.9), rgba(55,67,95,0.6), rgba(85,97,126,0.3));
     background-repeat: no-repeat;
 }
@@ -45,7 +42,7 @@ body{
     height: 50px;
     position: sticky;
     z-index: 1;
-    width: 100%;
+    width: 98%;
 }
 span{
     padding: 25px;
@@ -53,6 +50,9 @@ span{
     font-weight: bold;
     cursor: pointer;
     color: white;
+}
+html{
+    scroll-behavior: smooth;
 }
 .home{
     background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)), url("images/hogwarts3.jpg");
@@ -79,7 +79,7 @@ position: relative;
 margin: auto;
 }
 
-/* Next & previous buttons */
+
 .prev, .next {
 cursor: pointer;
 position: absolute;
@@ -95,7 +95,7 @@ border-radius: 0 3px 3px 0;
 user-select: none;
 }
 
-/* Position the "next button" to the right */
+
 .next {
 right: 0;
 border-radius: 3px 0 0 3px;
@@ -136,7 +136,6 @@ height: 250px;
 .cast{
     justify-content: center;
     display: flex;
-    overflow: scroll;
 }
 figcaption{
 color: white;
