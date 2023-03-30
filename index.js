@@ -23,7 +23,6 @@ function showSlides(n) {
 
 function home(){
     window.scrollTo(0,10);
-    // document.getElementById('home').scrollIntoView({ behavior: 'smooth'});
 }
 function about(){
     document.getElementById('about').scrollIntoView({ behavior: 'smooth'});
